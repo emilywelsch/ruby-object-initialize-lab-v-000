@@ -4,8 +4,8 @@ class Dog
     @breed = breed
   end
 # To shorten this use the following
-  attr.accessor :name
-  attr.accessor :breed
+  attr_accessor :name
+  attr_accessor :breed
 end
 #   def name=(name)
 #     @name = name
