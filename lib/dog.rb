@@ -4,9 +4,9 @@ class Dog
     @breed = breed
   end
 # To shorten this use the following
-attr.accessor :name
-attr.accessor :breed
-
+  attr.accessor :name
+  attr.accessor :breed
+end
 #   def name=(name)
 #     @name = name
 #   end
