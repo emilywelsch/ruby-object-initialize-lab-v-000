@@ -3,10 +3,12 @@ class Dog
     @name = name
     @breed = breed
   end
-# To shorten this use the following
+
   attr_accessor :name
   attr_accessor :breed
 end
+# The longer version of "setting" and "getting" the instance variables is below
+
 #   def name=(name)
 #     @name = name
 #   end
